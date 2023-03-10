@@ -6,7 +6,7 @@ services:
     shm_size: '1g'
     env_file:
       - .env
-      - "Node": "env"
+      - Node:"env"
     volumes:
       - ./data:/data
     restart: always
