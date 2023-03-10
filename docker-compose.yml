@@ -22,4 +22,3 @@ services:
       - '172.17.0.1:8001:8001'
     volumes:
       - ./insight:/db 
-
