@@ -7,7 +7,7 @@ services:
     env_file:
       - .env
     environment:
-      - NODE_PO:"env"
+      - NODE_PO:"envdir"
     volumes:
       - ./data:/data
     restart: always
